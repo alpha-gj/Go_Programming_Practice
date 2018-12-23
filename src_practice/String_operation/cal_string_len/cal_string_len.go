@@ -18,4 +18,9 @@ func main() {
 	fmt.Printf("string is %s, data type is %T, and the string len is %d by utf8.RuneCountInString\n", ch, ch, utf8.RuneCountInString(ch))
 
 
+	ch_v2 := "大爆炸"
+	fmt.Printf("string is %s, data type is %T, and counting string len is %d by using utf8.RuneCountInString \n", ch_v2, ch_v2, utf8.RuneCountInString(ch_v2));
+	
+
+
 }
